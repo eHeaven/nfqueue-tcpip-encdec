@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/songshuaisong/nfqueue-tcpip-encdec.svg?branch=master)](https://travis-ci.com/songshuaisong/nfqueue-tcpip-encdec)
+
 # nfqueue-tcpip-encdec
 
 Using Netfilter_queue and nfnetlink to grab data, And then determine the encryption or decryption key by judging the value of tcphdr->resl from the acquired data.
